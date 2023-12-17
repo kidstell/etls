@@ -1,6 +1,6 @@
 FROM richarvey/nginx-php-fpm:1.9.1
 
-COPY . /var/www/html/public
+COPY . .
 
 # Image config
 ENV SKIP_COMPOSER 1
